@@ -1,0 +1,69 @@
+.UIButton{
+    padding: 0 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 200ms all linear;
+    white-space: nowrap;
+}
+
+/* colors */
+.UIButton_gray{
+    background-color: #e5ebee;
+    color: #000;
+}
+.UIButton_red{
+    background-color: #d93900;
+    color: #fff;
+}
+.UIButton_transparent{
+    color: #5c6c74;
+    font-size: 12px;
+}
+.UIButton_blue{
+    background-color: #0A449B;
+    color: #fff;
+    height: 24px;
+    padding: 0px 11px 4px 11px;
+}
+
+/* type */
+.UIButton_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: #181C1F;
+}
+
+/* size */
+.UIButton_small{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+}
+.UIButton_small > svg{
+    width: 16px !important;
+    height: 16px;
+}
+
+
+/* effects */
+.UIButton_blue:hover{
+    background-color: #0A2F6C
+}
+.UIButton_red:hover{
+    background-color: #ae2c00;
+    text-decoration: underline;
+}
+.UIButton_gray:hover{
+    background-color: #dbe4e9;
+}
+.UIButton_transparent:hover{
+    background-color: #e5ebee;
+}

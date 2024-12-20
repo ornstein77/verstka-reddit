@@ -1,0 +1,107 @@
+.Sidebar{
+    width: 280px;
+    height: calc(100vh - 56px);
+    border-right: .0625rem solid #00000033;
+    position: fixed;
+    top: 56px;
+}
+.Sidebar__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
+}
+.Sidebar__content-top{
+    padding: 14px;
+}
+
+.SidebarTop__posts{
+    border-bottom: 1px solid #00000019;
+    padding-bottom: 12px;
+}
+
+.SidebarTop__posts-item{
+    color: #000;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+.SidebarTop__posts-item:hover,
+.SidebarTop__expand-header:hover,
+.SidebarTopExpand__content-item:hover {
+    background-color: #f6f8f9;
+}
+.SidebarTop__posts-item.active{
+    background-color: #e5ebee;
+}
+
+.SidebarTop__expand{
+    border-top: 1px solid #00000019;
+    border-bottom: 1px solid #00000019;
+    padding: 16px 0;
+    margin: 22px 0;
+}
+.SidebarTop__expand.active svg.arrow{
+    transform: rotate(180deg);
+    
+}
+.SidebarTop__expand_no_border_bottom{
+    border-bottom: none;
+}
+
+.SidebarTop__expand-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 16px 4px 10px;
+    height: 40px;
+    cursor: pointer;
+    color: #576f76;
+    letter-spacing: .1em;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.SidebarTop__expand-header > svg {
+    color: #000;
+}
+.SidebarTopExpand__content-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #21272A;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 8px;
+}
+.SidebarTopExpandContent__item-title{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.SidebarTopExpand__content-item:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.Sidebar__content-bottom{
+    color: #434343;
+    text-align: center;
+    font-size: .625rem;
+    cursor: pointer;
+    padding: 16px;
+}
+.Sidebar__content-bottom:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .Sidebar{
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+}
+.Layout{
+    max-width: 1120px;
+    /* min-width: 896px; */
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+    margin-top: calc(56px + 1rem);
+}
+@media screen and (max-width: 1716px) {
+    .Layout{
+        /* Резерв отступа за счет Sidebar'a */
+        margin: 0 0 0 calc(279px + 16px)
+    }
+}
+/* Sidebar убирается, отступ возвращается */
+@media screen and (max-width: 1200px) {
+    .Layout{
+        margin: 0 auto;
+    }
+}

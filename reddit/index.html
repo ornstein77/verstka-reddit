@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="styles/Layout.css">
+    <link rel="stylesheet" href="styles/Header.css">
+    <link rel="stylesheet" href="styles/UIKit.css">
+    <link rel="stylesheet" href="styles/Sidebar.css">
+    <link rel="stylesheet" href="styles/Masthead.css">
+    <link rel="stylesheet" href="styles/Main.css">
+</head>
+<body>
+    <div class="Header">
+        <div class="Header__collapse">
+            <div class="UIButton UIButton_transparent UIButton_icon">
+                <svg rpl="" fill="currentColor" height="20" icon-name="menu-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 10.625H1v-1.25h18v1.25Zm0-7.875H1V4h18V2.75ZM19 16H1v1.25h18V16Z"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="Header__logo">
+            <svg class="Header__logo-icon" width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <style>
+                    .snoo-cls-1 {
+                        fill: url(#snoo-radial-gragient);
+                    }
+                    
+                    .snoo-cls-1, .snoo-cls-2, .snoo-cls-3, .snoo-cls-4, .snoo-cls-5, .snoo-cls-6, .snoo-cls-7, .snoo-cls-8, .snoo-cls-9, .snoo-cls-10, .snoo-cls-11 {
+                        stroke-width: 0px;
+                    }
+                    
+                    .snoo-cls-2 {
+                        fill: url(#snoo-radial-gragient-2);
+                    }
+                    
+                    .snoo-cls-3 {
+                        fill: url(#snoo-radial-gragient-3);
+                    }
+                    
+                    .snoo-cls-4 {
+                        fill: url(#snoo-radial-gragient-4);
+                    }
+                    
+                    .snoo-cls-5 {
+                        fill: url(#snoo-radial-gragient-6);
+                    }
+                    
+                    .snoo-cls-6 {
+                        fill: url(#snoo-radial-gragient-8);
+                    }
+                    
+                    .snoo-cls-7 {
+                        fill: url(#snoo-radial-gragient-5);
+                    }
+                    
+                    .snoo-cls-8 {
+                        fill: url(#snoo-radial-gragient-7);
+                    }
+                    
+                    .snoo-cls-9 {
+                        fill: #842123;
+                    }
+                    
+                    .snoo-cls-10 {
+                        fill: #ff4500;
+                    }
+                    
+                    .snoo-cls-11 {
+                        fill: #ffc49c;
+                    }
+                    </style>
+            <radialGradient id="snoo-radial-gragient" cx="169.75" cy="92.19" fx="169.75" fy="92.19" r="50.98" gradientTransform="translate(0 11.64) scale(1 .87)" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#feffff"></stop>
+              <stop offset=".4" stop-color="#feffff"></stop>
+              <stop offset=".51" stop-color="#f9fcfc"></stop>
+              <stop offset=".62" stop-color="#edf3f5"></stop>
+              <stop offset=".7" stop-color="#dee9ec"></stop>
+              <stop offset=".72" stop-color="#d8e4e8"></stop>
+              <stop offset=".76" stop-color="#ccd8df"></stop>
+              <stop offset=".8" stop-color="#c8d5dd"></stop>
+              <stop offset=".83" stop-color="#ccd6de"></stop>
+              <stop offset=".85" stop-color="#d8dbe2"></stop>
+              <stop offset=".88" stop-color="#ede3e9"></stop>
+              <stop offset=".9" stop-color="#ffebef"></stop>
+            </radialGradient>
+            <radialGradient id="snoo-radial-gragient-2" cx="47.31" fx="47.31" r="50.98" xlink:href="#snoo-radial-gragient"></radialGradient>
+            <radialGradient id="snoo-radial-gragient-3" cx="109.61" cy="85.59" fx="109.61" fy="85.59" r="153.78" gradientTransform="translate(0 25.56) scale(1 .7)" xlink:href="#snoo-radial-gragient"></radialGradient>
+            <radialGradient id="snoo-radial-gragient-4" cx="-6.01" cy="64.68" fx="-6.01" fy="64.68" r="12.85" gradientTransform="translate(81.08 27.26) scale(1.07 1.55)" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#f60"></stop>
+              <stop offset=".5" stop-color="#ff4500"></stop>
+              <stop offset=".7" stop-color="#fc4301"></stop>
+              <stop offset=".82" stop-color="#f43f07"></stop>
+              <stop offset=".92" stop-color="#e53812"></stop>
+              <stop offset="1" stop-color="#d4301f"></stop>
+            </radialGradient>
+            <radialGradient id="snoo-radial-gragient-5" cx="-73.55" cy="64.68" fx="-73.55" fy="64.68" r="12.85" gradientTransform="translate(62.87 27.26) rotate(-180) scale(1.07 -1.55)" xlink:href="#snoo-radial-gragient-4"></radialGradient>
+            <radialGradient id="snoo-radial-gragient-6" cx="107.93" cy="166.96" fx="107.93" fy="166.96" r="45.3" gradientTransform="translate(0 57.4) scale(1 .66)" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#172e35"></stop>
+              <stop offset=".29" stop-color="#0e1c21"></stop>
+              <stop offset=".73" stop-color="#030708"></stop>
+              <stop offset="1" stop-color="#000"></stop>
+            </radialGradient>
+            <radialGradient id="snoo-radial-gragient-7" cx="147.88" cy="32.94" fx="147.88" fy="32.94" r="39.77" gradientTransform="translate(0 .54) scale(1 .98)" xlink:href="#snoo-radial-gragient"></radialGradient>
+            <radialGradient id="snoo-radial-gragient-8" cx="131.31" cy="73.08" fx="131.31" fy="73.08" r="32.6" gradientUnits="userSpaceOnUse">
+              <stop offset=".48" stop-color="#7a9299"></stop>
+              <stop offset=".67" stop-color="#172e35"></stop>
+              <stop offset=".75" stop-color="#000"></stop>
+              <stop offset=".82" stop-color="#172e35"></stop>
+            </radialGradient>
+            </defs>
+            <path class="snoo-cls-10" d="m108,0h0C48.35,0,0,48.35,0,108h0c0,29.82,12.09,56.82,31.63,76.37l-20.57,20.57c-4.08,4.08-1.19,11.06,4.58,11.06h92.36s0,0,0,0c59.65,0,108-48.35,108-108h0C216,48.35,167.65,0,108,0Z"></path>
+            <circle class="snoo-cls-1" cx="169.22" cy="106.98" r="25.22"></circle>
+            <circle class="snoo-cls-2" cx="46.78" cy="106.98" r="25.22"></circle>
+            <ellipse class="snoo-cls-3" cx="108.06" cy="128.64" rx="72" ry="54"></ellipse>
+            <path class="snoo-cls-4" d="m86.78,123.48c-.42,9.08-6.49,12.38-13.56,12.38s-12.46-4.93-12.04-14.01c.42-9.08,6.49-15.02,13.56-15.02s12.46,7.58,12.04,16.66Z"></path>
+            <path class="snoo-cls-7" d="m129.35,123.48c.42,9.08,6.49,12.38,13.56,12.38s12.46-4.93,12.04-14.01c-.42-9.08-6.49-15.02-13.56-15.02s-12.46,7.58-12.04,16.66Z"></path>
+            <ellipse class="snoo-cls-11" cx="79.63" cy="116.37" rx="2.8" ry="3.05"></ellipse>
+            <ellipse class="snoo-cls-11" cx="146.21" cy="116.37" rx="2.8" ry="3.05"></ellipse>
+            <path class="snoo-cls-5" d="m108.06,142.92c-8.76,0-17.16.43-24.92,1.22-1.33.13-2.17,1.51-1.65,2.74,4.35,10.39,14.61,17.69,26.57,17.69s22.23-7.3,26.57-17.69c.52-1.23-.33-2.61-1.65-2.74-7.77-.79-16.16-1.22-24.92-1.22Z"></path>
+            <circle class="snoo-cls-8" cx="147.49" cy="49.43" r="17.87"></circle>
+            <path class="snoo-cls-6" d="m107.8,76.92c-2.14,0-3.87-.89-3.87-2.27,0-16.01,13.03-29.04,29.04-29.04,2.14,0,3.87,1.73,3.87,3.87s-1.73,3.87-3.87,3.87c-11.74,0-21.29,9.55-21.29,21.29,0,1.38-1.73,2.27-3.87,2.27Z"></path>
+            <path class="snoo-cls-9" d="m62.82,122.65c.39-8.56,6.08-14.16,12.69-14.16,6.26,0,11.1,6.39,11.28,14.33.17-8.88-5.13-15.99-12.05-15.99s-13.14,6.05-13.56,15.2c-.42,9.15,4.97,13.83,12.04,13.83.17,0,.35,0,.52,0-6.44-.16-11.3-4.79-10.91-13.2Z"></path>
+            <path class="snoo-cls-9" d="m153.3,122.65c-.39-8.56-6.08-14.16-12.69-14.16-6.26,0-11.1,6.39-11.28,14.33-.17-8.88,5.13-15.99,12.05-15.99,7.07,0,13.14,6.05,13.56,15.2.42,9.15-4.97,13.83-12.04,13.83-.17,0-.35,0-.52,0,6.44-.16,11.3-4.79,10.91-13.2Z"></path>
+            </svg>
+            <svg class="Header__logo-title" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 514 149" style="color: var(--shreddit-color-wordmark)">
+                <g style="fill: currentColor">
+                  <path d="m71.62,45.92l-12.01,28.56c-1.51-.76-5.11-1.61-8.51-1.61s-6.81.85-10.12,2.46c-6.53,3.31-11.35,9.93-11.35,19.48v52.3H-.26V45.35h29.04v14.28h.57c6.81-9.08,17.21-15.79,30.74-15.79,4.92,0,9.65.95,11.54,2.08Z"></path>
+                  <path d="m65.84,96.52c0-29.41,20.15-52.68,50.32-52.68,27.33,0,46.91,19.96,46.91,48.05,0,4.92-.47,9.55-1.51,14h-68.48c3.12,10.69,12.39,19.01,26.29,19.01,7.66,0,18.54-2.74,24.4-7.28l9.27,22.32c-8.61,5.86-21.75,8.7-33.29,8.7-32.25,0-53.91-20.81-53.91-52.11Zm26.67-9.36h43.03c0-13.05-8.89-19.96-19.77-19.96-12.3,0-20.62,7.94-23.27,19.96Z"></path>
+                  <path d="m419.53-.37c10.03,0,18.25,8.23,18.25,18.25s-8.23,18.25-18.25,18.25-18.25-8.23-18.25-18.25S409.51-.37,419.53-.37Zm14.94,147.49h-29.89V45.35h29.89v101.77Z"></path>
+                  <path d="m246,1.47l-.09,53.53h-.57c-8.23-7.85-17.12-11.07-28.75-11.07-28.66,0-47.67,23.08-47.67,52.3s17.78,52.4,46.72,52.4c12.11,0,23.55-4.16,30.93-13.62h.85v12.11h28.47V1.47h-29.89Zm1.42,121.39h-.99l-6.67-6.93c-4.34,4.33-10.28,6.93-17.22,6.93-14.64,0-24.88-11.58-24.88-26.6s10.24-26.6,24.88-26.6,24.88,11.58,24.88,26.6v26.6Z"></path>
+                  <path d="m360.15,1.47l-.09,53.53h-.57c-8.23-7.85-17.12-11.07-28.75-11.07-28.66,0-47.67,23.08-47.67,52.3s17.78,52.4,46.72,52.4c12.11,0,23.55-4.16,30.93-13.62h.85v12.11h28.47V1.47h-29.89Zm1.28,121.39h-.99l-6.67-6.93c-4.34,4.33-10.28,6.93-17.22,6.93-14.64,0-24.88-11.58-24.88-26.6s10.24-26.6,24.88-26.6,24.88,11.58,24.88,26.6v26.6Z"></path>
+                  <path d="m492.44,45.35h21.85v25.44h-21.85v76.33h-29.89v-76.33h-21.75v-25.44h21.75v-27.66h29.89v27.66Z"></path>
+                </g>
+            </svg>
+        </div>
+        <div class='HeaderSearch_wrapper'>
+            <div class="Header__search">
+                <div class="Header__search-item">
+                    <!-- Лупа  -->
+                    <div class="Header-search-icon">
+                        <svg rpl="" aria-hidden="true" fill="currentColor" height="16" icon-name="search-outline" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.5 18.616 14.985 14.1a8.528 8.528 0 1 0-.884.884l4.515 4.515.884-.884ZM1.301 8.553a7.253 7.253 0 1 1 7.252 7.253 7.261 7.261 0 0 1-7.252-7.253Z"></path>
+                        </svg>
+                    </div>
+                    
+                    <!-- Инпут -->
+                    <input
+                        type="text"
+                        placeholder="Search Reddit"
+                    >
+                    <div class='Header__search-dropdown'>
+                        
+                    </div>
+
+                    <!-- Крестик  -->
+                    <div class="Header-search-icon">
+                        <svg rpl="" fill="currentColor" height="16" icon-name="clear-outline" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 18.75A8.75 8.75 0 1 1 18.75 10 8.76 8.76 0 0 1 10 18.75Zm3.567-11.433L10.884 10l2.683 2.683-.884.884L10 10.884l-2.683 2.683-.884-.884L9.116 10 6.433 7.317l.884-.884L10 9.116l2.683-2.683.884.884Z"></path>
+                        </svg>
+                    </div>
+
+                </div>
+                
+            <!-- Here dropdown... -->
+            </div>
+        </div>
+        <div class="Header__buttons">
+            <div class="UIButton UIButton_gray">
+                <svg rpl="" fill="currentColor" height="20" icon-name="qr-code-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.8 16h-3.7v-1.2h3.7v-3.7H16v3.7c0 .7-.5 1.2-1.2 1.2ZM9 7.8V5.2C9 4.5 8.5 4 7.8 4H5.2C4.5 4 4 4.5 4 5.2v2.5C4 8.5 4.5 9 5.2 9h2.5C8.5 9 9 8.5 9 7.8Zm-1.2 0H5.3V5.3h2.5v2.5Zm8.2 0V5.2c0-.7-.5-1.2-1.2-1.2h-2.5c-.8 0-1.3.5-1.3 1.2v2.5c0 .8.5 1.3 1.2 1.3h2.5c.8 0 1.3-.5 1.3-1.2Zm-1.2 0h-2.5V5.3h2.5v2.5Zm-5.8 7v-2.5c0-.8-.5-1.3-1.2-1.3H5.2c-.7 0-1.2.5-1.2 1.2v2.5c0 .8.5 1.3 1.2 1.3h2.5c.8 0 1.3-.5 1.3-1.2Zm-1.2 0H5.3v-2.5h2.5v2.5Zm-.8 3H2.6c-.2 0-.4-.2-.4-.4V13H1v4.4c0 .9.7 1.6 1.6 1.6H7v-1.2Zm12-.4V13h-1.2v4.4c0 .2-.2.4-.4.4H13V19h4.4c.9 0 1.6-.7 1.6-1.6Zm0-14.8c0-.9-.7-1.6-1.6-1.6H13v1.2h4.4c.2 0 .4.2.4.4V7H19V2.6Zm-16.8 0c0-.2.2-.4.4-.4H7V1H2.6C1.7 1 1 1.7 1 2.6V7h1.2V2.6Z"></path>
+                </svg>
+                Get app
+            </div>
+            <div class="UIButton UIButton_red">Log In</div>
+            <div class="UIButton UIButton_transparent UIButton_icon">
+                <svg rpl="" fill="currentColor" height="20" icon-name="overflow-horizontal-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.5 10a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM10 8.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm6 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"></path>
+                  </svg>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="Sidebar">
+            <div class="Sidebar__content">
+                <div class="Sidebar__content-top">
+                    <div class="SidebarTop__posts">
+                        <div class="SidebarTop__posts-item active">
+                            <svg rpl="" fill="currentColor" height="20" icon-name="home-fill" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m19.724 6.765-9.08-6.11A1.115 1.115 0 0 0 9.368.647L.276 6.765a.623.623 0 0 0 .35 1.141h.444v10.001c.001.278.113.544.31.74.196.195.462.304.739.303h5.16a.704.704 0 0 0 .706-.707v-4.507c0-.76 1.138-1.475 2.02-1.475.882 0 2.02.715 2.02 1.475v4.507a.71.71 0 0 0 .707.707h5.16c.274-.001.538-.112.732-.307.195-.195.305-.46.306-.736v-10h.445a.618.618 0 0 0 .598-.44.625.625 0 0 0-.25-.702Z"></path><!--?-->
+                            </svg>
+                            Home
+                        </div>
+                        <div class="SidebarTop__posts-item">
+                            <svg rpl="" fill="currentColor" height="20" icon-name="popular-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0a10 10 0 1 0 10 10A10.01 10.01 0 0 0 10 0Zm0 18.75a8.7 8.7 0 0 1-5.721-2.145l8.471-8.471v4.148H14V6.638A.647.647 0 0 0 13.362 6H7.718v1.25h4.148L3.4 15.721A8.739 8.739 0 1 1 10 18.75Z"></path>
+                            </svg>
+                            Popular
+                        </div>
+                    </div>
+    
+                    <div class="SidebarTop__expand active">
+                        <div class="SidebarTop__expand-header">
+                        TOPICS
+                        <svg class="arrow" rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                        </svg>
+                        </div>
+                        <div class="SidebarTop__expand-content">
+                            <div class="SidebarTopExpand__content-item">
+                                <div class="SidebarTopExpandContent__item-title">
+                                    <svg rpl="" fill="currentColor" height="20" icon-name="topic-funny-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.678 5.875h-1.25V5.25a1.875 1.875 0 0 0-3.75 0v.625h-1.25V5.25a3.125 3.125 0 1 1 6.25 0v.625Z"></path><path d="M18.678 5.875h-1.25V5.25a1.875 1.875 0 1 0-3.75 0v.625h-1.25V5.25a3.125 3.125 0 0 1 6.25 0v.625Z"></path><path d="M10.053 17.875A8.635 8.635 0 0 1 1.428 9.25a.625.625 0 0 1 .625-.625h16a.625.625 0 0 1 .625.625 8.635 8.635 0 0 1-8.625 8.625Zm-7.348-8a7.375 7.375 0 0 0 14.7 0h-14.7Z"></path>
+                                    </svg>
+                                    Internet Culture (Viral)
+                                </div>
+                               <svg class="arrow" rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                                </svg>
+                            </div>
+                            <div class="SidebarTopExpand__content-item">
+                                <div class="SidebarTopExpandContent__item-title">
+                                    <svg rpl="" fill="currentColor" height="20" icon-name="topic-videogaming-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.929 14.17 18.277 6.6a4.631 4.631 0 0 0-4.52-3.6H5.702a4.623 4.623 0 0 0-4.58 3.908L.034 14.387a3.134 3.134 0 0 0 .735 2.5 3.227 3.227 0 0 0 5.553-1.284l.39-1.635h5.794l.39 1.635A3.2 3.2 0 0 0 16.01 18h.782a3.211 3.211 0 0 0 3.123-2.444c.109-.455.114-.929.015-1.386Zm-1.6 1.85a1.964 1.964 0 0 1-1.54.73h-.781a1.947 1.947 0 0 1-1.9-1.453l-.63-2.476H5.74L5.11 15.3a1.947 1.947 0 0 1-1.9 1.453 1.974 1.974 0 0 1-1.5-.678 1.862 1.862 0 0 1-.443-1.506l1.09-7.481A3.366 3.366 0 0 1 5.7 4.25h8.062a3.373 3.373 0 0 1 3.3 2.614l1.65 7.573a1.877 1.877 0 0 1-.383 1.583h-.001Z"></path><path d="M6.256 6.212h-1.25v1.776h-1.73v1.25h1.73v1.622h1.25V9.238h1.73v-1.25h-1.73V6.212Z"></path><path d="M11.82 8.81a1 1 0 1 0 1.71.71 1.001 1.001 0 0 0-.3-.71 1.034 1.034 0 0 0-1.41 0Z"></path><path d="M15.23 6.85a.875.875 0 0 0-.32-.22c-.246-.1-.522-.1-.77 0a.875.875 0 0 0-.32.22.975.975 0 0 0 0 1.41 1 1 0 0 0 1.41 0 1.03 1.03 0 0 0 .22-1.09.877.877 0 0 0-.22-.32Z"></path>
+                                    </svg>
+                                    Games
+                                </div>
+                                <svg class="arrow" rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                                </svg>
+                            </div>
+                            <div class="SidebarTopExpand__content-item">
+                                <div class="SidebarTopExpandContent__item-title">
+                                    <svg rpl="" fill="currentColor" height="20" icon-name="topic-help-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M9.45 13.95a1.033 1.033 0 0 1-.71-.29 1.014 1.014 0 0 1 0-1.42 1.033 1.033 0 0 1 1.409 0 1 1 0 0 1-.699 1.71Zm.689-9.9A4.987 4.987 0 0 0 7.111 5a.853.853 0 0 0-.1 1.313l.065.061a.832.832 0 0 0 1.085.026 2.987 2.987 0 0 1 1.752-.658c.8 0 1.245.371 1.245.9 0 .649-.331.94-1.059 1.351a2.772 2.772 0 0 0-1.333 1.481c-.058.14-.089.288-.093.439 0 .252.099.494.276.673a.89.89 0 0 0 .665.266.913.913 0 0 0 .661-.265.925.925 0 0 0 .227-.422c0-.006.046-.261.046-.267.095-.479.365-.733 1.141-1.134a2.452 2.452 0 0 0 1.562-2.29c-.001-1.405-1.1-2.424-3.112-2.424ZM13.376 16h2A4.626 4.626 0 0 0 20 11.379V5.621A4.626 4.626 0 0 0 15.379 1H4.621A4.626 4.626 0 0 0 0 5.621v5.758A4.626 4.626 0 0 0 4.621 16H7.5v-1.25H4.621a3.375 3.375 0 0 1-3.371-3.371V5.621A3.375 3.375 0 0 1 4.621 2.25h10.758a3.375 3.375 0 0 1 3.371 3.371v5.758a3.376 3.376 0 0 1-3.371 3.371h-2.5l-3.763 3.607.866.9L13.376 16Z"></path>
+                                    </svg>
+                                    Q&As
+                                </div>
+                                <svg class="arrow" rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                                </svg>
+                            </div>
+                            <div class="SidebarTopExpand__content-item">
+                                <div class="SidebarTopExpandContent__item-title">
+                                    <svg rpl="" fill="currentColor" height="20" icon-name="topic-technology-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.875 7h-3.75A1.127 1.127 0 0 0 7 8.125v3.75A1.127 1.127 0 0 0 8.125 13h3.75A1.127 1.127 0 0 0 13 11.875v-3.75A1.127 1.127 0 0 0 11.875 7Zm-.125 4.75h-3.5v-3.5h3.5v3.5Z"></path><path d="M19 7.625v-1.25h-2v-1.75A1.627 1.627 0 0 0 15.375 3h-1.75V1h-1.25v2h-1.75V1h-1.25v2h-1.75V1h-1.25v2h-1.75A1.627 1.627 0 0 0 3 4.625v1.75H1v1.25h2v1.75H1v1.25h2v1.75H1v1.25h2v1.75A1.627 1.627 0 0 0 4.625 17h1.75v2h1.25v-2h1.75v2h1.25v-2h1.75v2h1.25v-2h1.75A1.627 1.627 0 0 0 17 15.375v-1.75h2v-1.25h-2v-1.75h2v-1.25h-2v-1.75h2Zm-3.25 7.75a.375.375 0 0 1-.375.375H4.625a.375.375 0 0 1-.375-.375V4.625a.375.375 0 0 1 .375-.375h10.75a.375.375 0 0 1 .375.375v10.75Z"></path>
+                                    </svg>
+                                    Technology
+                                </div>
+                                <svg class="arrow" rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                                </svg>
+                            </div>
+                            <div class="SidebarTopExpand__content-item">
+                                <div class="SidebarTopExpandContent__item-title">
+                                    <svg rpl="" fill="currentColor" height="20" icon-name="topic-celebrity-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 13.979a3.003 3.003 0 0 1-2.772-1.85 2.993 2.993 0 0 1 2.187-4.086 3.004 3.004 0 0 1 3.08 1.274 2.994 2.994 0 0 1-.373 3.784A3.003 3.003 0 0 1 10 13.98Zm0-4.745a1.752 1.752 0 0 0-1.617 1.08 1.746 1.746 0 0 0 1.275 2.383 1.752 1.752 0 0 0 2.092-1.715A1.748 1.748 0 0 0 10 9.234ZM15.5 19.497c-.15 0-.3-.03-.438-.09L10 17.235l-5.063 2.172a1.103 1.103 0 0 1-1.447-.555 1.097 1.097 0 0 1-.092-.558l.512-5.456L.274 8.724a1.098 1.098 0 0 1 .588-1.798l5.377-1.199 2.813-4.719a1.14 1.14 0 0 1 1.9 0l2.809 4.713 5.378 1.199a1.1 1.1 0 0 1 .838 1.294c-.038.187-.125.36-.25.504l-3.64 4.114.51 5.455a1.097 1.097 0 0 1-1.1 1.204l.004.006ZM10 15.977c.15 0 .298.03.436.088l4.894 2.097-.494-5.272a1.099 1.099 0 0 1 .27-.829l3.515-3.975-5.194-1.16a1.101 1.101 0 0 1-.71-.515L10 1.858 7.28 6.414a1.1 1.1 0 0 1-.707.512L1.38 8.086l3.515 3.975a1.098 1.098 0 0 1 .27.832l-.494 5.27 4.894-2.098c.138-.059.286-.089.436-.088Z"></path>
+                                    </svg>
+                                    Pop Culture
+                                </div>
+                                <svg class="arrow" rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                                </svg>
+                            </div>
+                            <div class="SidebarTopExpand__content-item">
+                                <div class="SidebarTopExpandContent__item-title">
+                                    <svg rpl="" fill="currentColor" height="20" icon-name="topic-movies-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M18.375 8H6.45L17.3 5.093a.625.625 0 0 0 .44-.765L16.709.464a.62.62 0 0 0-.522-.459.616.616 0 0 0-.244.017L.488 4.162a.624.624 0 0 0-.441.766l.969 3.618A.527.527 0 0 0 1 8.625v8.75A2.629 2.629 0 0 0 3.625 20h12.75A2.628 2.628 0 0 0 19 17.375v-8.75A.625.625 0 0 0 18.375 8ZM8.06 6.275l-2.75.737v-2.7a.61.61 0 0 0-.028-.135l2.778-.744v2.842Zm1.25-3.182 2.75-.737V5.2l-2.75.737V3.093Zm7.063.954-3.063.82V2.022l2.35-.63.713 2.656ZM4.06 4.5v2.807c0 .013.006.025.007.038l-1.94.52-.712-2.657L4.06 4.5ZM17.75 17.375a1.377 1.377 0 0 1-1.375 1.375H3.625a1.377 1.377 0 0 1-1.375-1.375V9.25h15.5v8.125Z"></path>
+                                    </svg>
+                                    Movies & TV
+                                </div>
+                                <svg class="arrow" rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="SidebarTop__expand SidebarTop__expand_no_border_bottom">
+                        <div class="SidebarTop__expand-header">
+    
+                        RESOURCES
+    
+                        <svg rpl="" fill="currentColor" height="20" icon-name="caret-down-outline" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 13.125a.624.624 0 0 1-.442-.183l-5-5 .884-.884L10 11.616l4.558-4.558.884.884-5 5a.624.624 0 0 1-.442.183Z"></path>
+                        </svg>
+    
+                        </div>
+                        <!-- <div class="SidebarTop__expand-content">
+                        
+                        </div> -->
+                    </div>
+                </div>
+                <div class="Sidebar__content-bottom">
+                    <a>Reddit, Inc. © 2024. All rights reserved.</a>
+                </div>
+            </div>
+        </div>
+        
+        <main>
+            <div class="Layout">
+                <div class="Masthead">
+                    <div class="Masthead__container">
+                        <div 
+                            class="Masthead__container-item" 
+                            style="background-image: 
+                                linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 60%, rgba(0, 0, 0, 0.6) 100%), 
+                                url(assets/images/masthead_bg1.webp)"
+                        >
+                            <div class="title">
+                                Trump begins nameing cabi...
+                            </div>
+                            <div class="subtitle">
+                                Trump says he will nominate Fox News ...
+                            </div>
+                            <div class="profile">
+                                <img src="assets/images/profile_icon1.jpg" alt="">
+                                r/politics
+                                <span> and more</span>
+                            </div>
+                        </div>
+                       
+                        <div 
+                            class="Masthead__container-item" 
+                            style="background-image: 
+                                linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 60%, rgba(0, 0, 0, 0.6) 100%), 
+                                url(assets/images/masthead_bg2.webp)"
+                        >
+                            <div class="title">
+                                My Chemical Romance tour
+                            </div>
+                            <div class="subtitle">
+                                My Chemical Romance - “Long Live:" Th... 
+                            </div>
+                            <div class="profile">
+                                <img src="assets/images/profile_icon2.png" alt="">
+                                r/MyChemicalRomance
+                                <span> and more</span>
+                            </div>
+                        </div>
+                        
+                        <div 
+                            class="Masthead__container-item" 
+                            style="background-image: 
+                                linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 60%, rgba(0, 0, 0, 0.6) 100%), 
+                                url(assets/images/masthead_bg3.webp)"
+                        >
+                            <div class="title">
+                                Spirit Airlines bankruptcy
+                            </div>
+                            <div class="subtitle">
+                                Spirit Airlines Moves Toward Bankruptc...
+                            </div>
+                            <div class="profile">
+                                <img src="assets/images/profile_icon3.png" alt="">
+                                r/news
+                                <span> and more</span>
+                            </div>
+                        </div>
+                        <div 
+                            class="Masthead__container-item" 
+                            style="background-image: 
+                                linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 60%, rgba(0, 0, 0, 0.6) 100%), 
+                                url(assets/images/masthead_bg4.webp)"
+                        >
+                            <div class="title">
+                                23andMe layoffs
+                            </div>
+                            <div class="subtitle">
+                                23andMe to lay off 40 percent of its staff ...
+                            </div>
+                            <div class="profile">
+                                <img src="assets/images/profile_icon4.png" alt="">
+                                r/technology
+                                <span> and more</span>
+                            </div>
+                        </div>
+                        <div 
+                            class="Masthead__container-item" 
+                            style="background-image: 
+                                linear-gradient(
+                                    180deg, rgba(0, 0, 0, 0) 0%, 
+                                    rgba(0, 0, 0, 0.54) 60%, 
+                                    rgba(0, 0, 0, 0.6) 100%
+                                ), url(assets/images/masthead_bg5.webp)"
+                        >
+                            <div class="title">
+                                Bridget Jones 4 trailer
+                            </div>
+                            <div class="subtitle">
+                                Bridget Jones: Mad About the Boy Offici...
+                            </div>
+                            <div class="profile">
+                                <img src="assets/images/profile_icon5.png" alt="">
+                                r/boxoffice
+                                <span> and more</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Masthead__arrow">
+                        <svg rpl="" fill="currentColor" height="16" icon-name="right-fill" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
+                            <!--?lit$702688344$--><!--?lit$702688344$--><path d="m7.207 19.707-1.414-1.414L14.086 10 5.793 1.707 7.207.293l9 9a1 1 0 0 1 0 1.414l-9 9Z"></path><!--?-->
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="Main">
+                    <!-- Лента -->
+                    <div class="MainContent">
+                        <div class="filters"></div>
+
+                        <!-- item -->
+                        <div class="MainContentItem">
+                            <div class="MainContentItem__header">
+                                <div class="MainContentItem__header-user">
+                                    <img src="assets/images/users/user_1.jpg" alt="">
+                                    <div class="username">r/idleon</div>
+                                    <div class="date">11 hr. ago</div>
+                                </div>
+    
+                                <div class="MainContentItem__header-actions">
+                                    <div class="UIButton UIButton_blue">Join</div>
+                                    <div class="UIButton UIButton_icon UIButton_transparent UIButton_small">
+                                        <svg rpl="" fill="currentColor" height="16" icon-name="overflow-horizontal-fill" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm6 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="MainContentItem__title">
+                                IDLEON GIVEAWAY [24 hours, info in comments]
+                            </div>
+                            <div class="MainContentItem__image">
+                                <img class="MainContentItem__image-front" src="assets/images/posts/post_1.webp" alt="">
+                                <img class="MainContentItem__image-back" src="assets/images/posts/post_1.webp" alt="">
+                                <img class="MainContentItem__image-hidden" src="assets/images/posts/post_1.webp" alt="">
+                            </div>
+                            <div class="MainContentItem__btns">
+                                
+                            </div>
+                        </div>
+                        <!-- ! End item  -->
+
+                        <!-- item -->
+                        <div class="MainContentItem">
+                            <div class="MainContentItem__header">
+                                <div class="MainContentItem__header-user">
+                                    <img src="assets/images/users/user_1.jpg" alt="">
+                                    <div class="username">r/idleon</div>
+                                    <div class="date">11 hr. ago</div>
+                                </div>
+    
+                                <div class="MainContentItem__header-actions">
+                                    <div class="UIButton UIButton_blue">Join</div>
+                                    <div class="UIButton UIButton_icon UIButton_transparent UIButton_small">
+                                        <svg rpl="" fill="currentColor" height="16" icon-name="overflow-horizontal-fill" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm6 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="MainContentItem__title">
+                                IDLEON GIVEAWAY [24 hours, info in comments]
+                            </div>
+                            <div class="MainContentItem__image">
+                                <img class="MainContentItem__image-back" src="assets/images/posts/post_2.webp" alt="">
+                                <img class="MainContentItem__image-front" src="assets/images/posts/post_2.webp" alt="">
+                                <img class="MainContentItem__image-hidden" src="assets/images/posts/post_2.webp" alt="">
+                            </div>
+                            <div class="MainContentItem__btns">
+                                
+                            </div>
+                        </div>
+                        <!-- ! End item  -->
+
+                    </div>
+                    <!-- Popular communities card -->
+                    <div class="MainPopular">
+                        <div class="MainPopular__title">
+                            Popular Communities
+                        </div>
+                        <div class="MainPopular__content">
+                            <div class="MainPopular__content-item">
+                                <img src="assets/images/users/user_1.jpg" alt="">
+                                <div class="info">
+                                    <div class="info__user">r/DestinyTheGame</div>
+                                    <div class="info__members">3,253,043 members</div>
+                                </div>
+                            </div>
+                            <div class="MainPopular__content-item">
+                                <img src="assets/images/users/user_2.png" alt="">
+                                <div class="info">
+                                    <div class="info__user">r/anime</div>
+                                    <div class="info__members">11,694,395 members</div>
+                                </div>
+                            </div>
+                            <div class="MainPopular__content-item">
+                                <img src="assets/images/users/user_3.png" alt="">
+                                <div class="info">
+                                    <div class="info__user">r/destiny2</div>
+                                    <div class="info__members">912,305 members</div>
+                                </div>
+                            </div>
+                            <div class="MainPopular__content-item">
+                                <img src="assets/images/users/user_4.png" alt="">
+                                <div class="info">
+                                    <div class="info__user">r/FortNiteBR</div>
+                                    <div class="info__members">5,248,986 members</div>
+                                </div>
+                            </div>
+                            <div class="MainPopular__content-item">
+                                <img src="assets/images/users/user_5.png" alt="">
+                                <div class="info">
+                                    <div class="info__user">r/dndnext</div>
+                                    <div class="info__members">785,427 members</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="MainPopular__btn">
+                            <div class="UIButton UIButton_gray">
+                                See more
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

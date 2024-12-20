@@ -1,0 +1,115 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    height: 56px;
+    border-bottom: .0625rem solid #00000033;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: #fff;
+}
+
+.Header__collapse{
+    display: none;
+}
+
+.Header__logo{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.Header-search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #181C1F;
+}
+
+.Header__logo-title{
+    height: 22px;
+    color: #ff4500 !important;
+}
+.HeaderSearch_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+}
+.Header__search{
+    flex-grow: 1;
+}
+.Header__search-item{
+    max-width: 560px;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 24px;
+    background-color: #e5ebee;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 8px auto;
+    border: 2px solid transparent;
+    position: relative;
+}
+.Header__search-item > input {
+    width: 100%;
+    outline: none !important;
+    border: none !important;
+    background-color: #e5ebee;
+}
+
+.Header__search-dropdown{
+    /* display: none; */
+    background-color: red;
+    border-radius: 12px;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    opacity: 0;
+    height: 0px;
+    transition: opacity 200ms linear;
+}
+.Header__search-item > input:focus ~ .Header__search-dropdown{
+    /* display: block; */
+    height: 50px;
+    opacity: 1;
+}
+.Header__search-item:focus-within{
+    border: 2px solid #049ed5;
+    background-color: white;
+}
+.Header__search-item:focus-within > input{ 
+    background-color: white;
+}
+
+.Header__search-item:hover{
+    background-color: #dbe4e9;
+}
+.Header__search-item:hover > input{
+    background-color: #dbe4e9;
+}
+
+.Header__buttons{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .Header__collapse{
+        display: block;
+    }
+    .Header__buttons > :first-child{
+        display: none;
+    }
+}
+@media screen and (max-width: 960px) {
+    .Header__logo-title{
+        display: none;
+    }
+}
